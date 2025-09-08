@@ -1,0 +1,128 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?technology,workspace') no-repeat center center;
+    background-size: cover;
+}
+
+
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.register-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+
+.site-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+
+.register-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.register-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+
+.input-group {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #007BFF;
+}
+
+
+.btn-primary {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-google {
+    background-color: #DB4437;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-google:hover {
+    background-color: #a63528;
+}
+
+
+.login-account {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.login-account a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-account a:hover {
+    text-decoration: underline;
+}
